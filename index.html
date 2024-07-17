@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Encanador Mario Bross</title>
+  </head>
+
+  <body>
+
+    <div onclick="esconderForm()" class="mascara-formulario"></div>
+
+    <div class="header">
+      <img src="./img/icon.png" alt="logo mario" />
+      <a>Home</a>
+      <a>Nossos Serviços</a>
+      <a>Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+      <div class="caixa-principal">
+        <img src="./img/logo (1).png"alt="logo do mario bros" class="logo-mario"/>
+        <p>
+          Encanadores Mario & Luigi - Resolvendo seus problemas Hidráulico Com
+          Estilo!
+        </p>
+        <p>
+          Você já se encontrou em uma situação de emergência com encanamento?
+          Vazamentos inesperados,canos entupidos ou torneiras que não param de
+          pingar? Não se preocupe, porque estamos aqui para salvar o
+          dia!Apresentamos a vocês os encanadores mais famosos do reino dos
+          cogumelos - Mario & Luigi!
+        </p>
+        <button onclick="mostrarForm()">ENTRE EM CONTATO</button>
+      </div>
+
+      <div>
+        <img src="./img/mario.png" alt="logo mario e luigi" class="logo-mario-luigi"/>
+      </div>
+    </div>
+
+    <div class="caixa-video">
+      <video src="./img/video.mp4" autoplay muted loop></video>
+      <div class="mascara"></div>
+    </div>
+
+    <a
+      href="https://wa.me/55459856745?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20seus%20servi%C3%A7os!" target="_blank" class="link-do-whatsapp">
+      <img src="./img/watsApp.png" alt="link whatsapp" />
+    </a>
+
+    <form class="formulario-contato"  
+      action="https://formcarry.com/s/aQJraidVIN-"
+      method="POST"
+      enctype="multipart/form-data" >
+        <input placeholder="Seu nome" text="name" name="nome">
+        <input placeholder="Seu numero" text="CONTATO" name="numero">
+        <textarea placeholder="Digite seu assunto" name="duvida"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+  </body>
+
+  <script src="./script.js"></script>
+
+</html>
